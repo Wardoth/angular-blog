@@ -9,6 +9,8 @@ export class SmallCardComponent {
   @Input()
   photoCover:string= ""
   @Input()
-  cardTitle:string = "Death stranding o filme anunciado com data"
+  cardTitle:string = ""
+  @Input()
+  Id:string = "0"
 
 }
